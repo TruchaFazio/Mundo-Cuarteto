@@ -7,6 +7,12 @@ body{
     color: antiquewhite;
     text-align: center;
 }
+header li:hover{
+    background-color:antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
 main{
     padding-top: 25px;
     padding-bottom: 100px;
@@ -16,18 +22,23 @@ main{
     grid-template-rows: auto auto auto;
 
     justify-content: center; 
-    
 }
-.videos{
-
-
-}
-
 .articulo{
     color: black;
     border: 5px solid yellow;
     border-radius: 25px;
+    transition: 0.5s;
+}
+.articulo:hover{
+    transform:scale(1.1);
+}
+iframe{
+    border: 20px solid black;
 }
 .logo{
     border-radius: 50px;
+    transition: 1s;
+}
+.logo:hover{
+    transform: scale(1.1);
 }
