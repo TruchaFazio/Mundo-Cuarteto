@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    ;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+main{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: auto auto auto;
+
+    justify-content: center; 
+    
+}
+.videos{
+
+
+}
+
+.articulo{
+    color: black;
+    border: 5px solid yellow;
+    border-radius: 25px;
+}
+.logo{
+    border-radius: 50px;
+}
